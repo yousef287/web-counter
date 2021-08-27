@@ -1,0 +1,32 @@
+body {
+    background-color: #f1f5f8;
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+#count {
+    font-size: 3rem;
+}
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: grabbing;
+    background-color: black;
+    color: white;
+    transition-duration: 700ms;
+}
